@@ -6,6 +6,9 @@
     list-style: none;
 }
 
+body{
+    font-family: 'Poppins', sans-serif;
+}
 .navbar_list{
     display: flex;
     gap: 50px;
@@ -49,13 +52,22 @@ color: #FFFFFF;
 /* Header qismi */
 
 
-
+.inp{
+    border: 1px solid #E6E6E6;
+    outline: none;
+    padding: 14px 480px 14px 50px;
+    color: gray;
+}
 .header{
     margin-top: 50px;
+}
+.alt_logo{
+    padding-top: 15px;
 }
 
 .header_list{
     padding-left: 100px;
+    padding-top: 15px;
 }
 
 .fa-unlock{
@@ -149,4 +161,107 @@ color: #414141;
 background-color: #FFFFFF;
 padding: 15px 40px;
 border: none;
+}
+
+
+.form{
+    font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+color: #414141;
+}
+
+.card img{
+    width: 100%;
+}
+.fa-heart{
+    padding-left: 285px;
+}
+.iphone{
+    display: flex;
+    align-items: center;
+}
+/* .iphone img{
+    width: 5%;
+    padding-left: 100px;
+} */
+
+
+
+.puton{
+    display: flex;
+    align-items: center;
+}
+
+.popp h2{
+    font-weight: 900;
+font-size: 42px;
+line-height: 49px;
+color: #000000;
+}
+
+.navigator{
+    font-weight: 500;
+font-size: 14px;
+line-height: 126.69%;
+color: #000000;
+padding-top: 50px;   
+}
+
+
+.right_left{
+    margin-top: 30px;   
+    font-weight: 400;
+font-size: 14px;
+line-height: 126.69%;
+color: #414141;
+}
+.apple{
+    margin-left: 350px;
+    font-weight: 900;
+font-size: 42px;
+line-height: 49px;
+color: #000000;
+}
+
+.orange{
+    margin-left: 270px;
+}
+
+.aksiya{
+    display: flex;
+    align-items: center;
+}
+
+.novinka{
+    margin-left: 30px;
+    font-weight: 400;
+font-size: 14px;
+line-height: 126.69%;
+color: #414141;
+}
+
+.web{
+    font-weight: 400;
+font-size: 14px;
+line-height: 126.69%;
+color: #D74444;
+}
+
+
+.area{
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+}
+
+.watch{
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.fa-envelope{
+    margin-left: 30px;
+}
+.fa-instagram{
+    margin-left: 30px;
 }
